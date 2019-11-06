@@ -14,6 +14,8 @@ use PHPUnit\Framework\Assert;
 /**
  * Behat step definitions for testing Webtools Maps.
  *
+ * @SuppressWarnings(PHPMD.CyclomaticComplexity)
+ *
  * @deprecated Sub-contexts are deprecated in Drupal Behat Extension 4.0.0 and
  * will be removed in 4.1.0. Class OeWebtoolsMapsSubContext is a subcontext.
  * This logic should be moved to a normal Behat context and
